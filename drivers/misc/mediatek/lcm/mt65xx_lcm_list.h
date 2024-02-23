@@ -17,6 +17,7 @@
 #include <lcm_drv.h>
 extern LCM_DRIVER ili9806e_txd_hd720_dsi_vdo_fwvga_lcm_drv;
 extern LCM_DRIVER zaw700_ili9806e_fwvga_dsi_vdo_DJN_1504_lcm_drv;
+extern LCM_DRIVER gc9503p_fwp_dsi_vdo_jt_ivo_ba2_lcm_drv;
 //by nik-kst for x5
 extern LCM_DRIVER hct_otm1285a_dsi_vdo_hd_boe;
 extern LCM_DRIVER hct_ili9881_dsi_vdo_hd_cpt;
