@@ -34,6 +34,10 @@ LCM_DSI_MODE_CON lcm_dsi_mode;
 #endif
 
 LCM_DRIVER *lcm_driver_list[] = {
+
+#if defined(GC9503P_FWP_DSI_VDO_JT_IVO_BA2)
+	&gc9503p_fwp_dsi_vdo_jt_ivo_ba2_lcm_drv,
+#endif
 #if defined(ILI9806E_TXD_HD720_DSI_VDO_FWVGA)            
 	&ili9806e_txd_hd720_dsi_vdo_fwvga_lcm_drv,
 #endif
